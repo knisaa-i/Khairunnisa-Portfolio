@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Environment variables — JANGAN pernah commit ke GitHub!
+.env
+backend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/settings.json
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+
+# Uploaded files
+frontend/assets/uploads/
+
+# PM2
+.pm2/
